@@ -7,27 +7,36 @@
     <title>Fundo de imagem</title>
     <style>
         body {
-            overflow: hidden;
             width: 100vw;
-            background-color: black;
+           /* background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed; */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed ;
+            background-size: cover;
         }
+
+        /* Shorthand - background
+            clor > image > position > repeat > "size" > attachment */
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             margin: auto;
             border: 1px solid blue;
             border-radius: 15px;
+            padding: 10px;
         }
     </style>
 </head>
 <body>
     <main>
         <h1>Teste de imagens</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore alias rerum omnis laudantium laborum, provident eum incidunt et doloribus maxime doloremque debitis enim laboriosam asperiores officia amet blanditiis eos voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ex eius explicabo consectetur assumenda odit dolor eligendi numquam illo dolores eum et voluptas veniam architecto minus corrupti, nesciunt tempore voluptatum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic id distinctio nemo, odit eius minima natus, quae aut ducimus molestias aliquid iure quos ipsam adipisci incidunt impedit dicta repellat qui!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore alias rerum omnis laudantium laborum, provident eum incidunt et doloribus maxime doloremque debitis enim laboriosam asperiores officia amet blanditiis eos voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ex eius explicabo consectetur assumenda odit dolor eligendi numquam illo dolores eum et voluptas veniam architecto minus corrupti, nesciunt tempore voluptatum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic id distinctio nemo, odit eius minima natus, quae aut ducimus molestias aliquid iure quos ipsam adipisci incidunt impedit dicta repellat qui!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore alias rerum omnis laudantium laborum, provident eum incidunt et doloribus maxime doloremque debitis enim laboriosam asperiores officia amet blanditiis eos voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ex eius explicabo consectetur assumenda odit dolor eligendi numquam illo dolores eum et voluptas veniam architecto minus corrupti, nesciunt tempore voluptatum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic id distinctio nemo, odit eius minima natus, quae aut ducimus molestias aliquid iure quos ipsam adipisci incidunt impedit dicta repellat qui!</p>
     </main>
 </body>
